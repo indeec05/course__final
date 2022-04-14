@@ -1,0 +1,106 @@
+@startuml
+
+Class "Клиент" as client {
+    Название
+    ИНН
+    Состояние
+    Наименование
+    Тип бизнеса
+}
+
+class "Представитель\nклиента" as member {
+    ФИО
+    Телефон
+    Email
+    Пароль
+}
+
+class "Тариф" as tariff {
+    Наименование
+    Мин оборот
+    Макс оборот
+    Описание
+    Комиссия
+    Стандартный: boolean
+}
+
+class "Состояния клиента" as states <<Enumeration>> {
+    Новый
+    Зарегистрирован
+    Активирован
+}
+
+class "Типы бизнеса" as business_types <<Enumeration>> {
+    Ресторан
+}
+
+class "Ресторан" as restaurant {
+    Название
+    Тип кухни
+    Адрес
+    Галерея фото
+    Расположение: \{
+        Долгота,
+        Широта
+    \}
+}
+
+class "Подключение к\nсистеме ресторана" as connection {
+
+}
+
+class "Рабочий день" as working_day {
+    Время начала
+    Время окончания
+    День недели
+}
+
+class "Столик" as table {
+    Количество мест
+    Статус
+    Описание
+}
+
+class "Авторизованный\nклиент" as fl {
+    Имя
+    Телефон
+    Email
+    Пароль
+}
+
+class "Бронирование" as booking {
+    Количество гостей
+    Дата
+    Время
+    Статус
+    Столик
+}
+
+class "Статусы бронирования" as booking_states {
+    Новое
+    Подтверждено
+    Отменено
+    Успех
+    Неуспех
+}
+
+class "Сотрудник плтаформы" as employee {
+    Email
+    Пароль
+}
+
+member "0..1" --* client
+client "0..*" --> "1" tariff
+client "0..*" --> "1" states
+client "0..*" --> "1" business_types
+restaurant "0..*" --* client
+connection "0..*" --* restaurant
+working_day "0..7" --* restaurant
+table "0..*" --* restaurant
+
+booking "0..1" --> "1" booking_states
+booking "0..*" --* fl
+booking "0..*" -right-* table
+
+employee "0..*" --> "0..*" client
+employee "0..*" --> "0..*" tariff

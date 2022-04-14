@@ -1,10 +1,24 @@
-![](src/Screenshot_124.png)
+![](img/Screenshot_124.png)
 
-## Глоссарий
 ## Оглавление
 
+* [Глоссарий](#глоссарий) раздел пока пуст
+* [Бизнес цели](#бизнес-цели) раздел пока пуст
+* [Варианты использования](#варианты-использования)
+  * [Верхнеуровневая схема](#верхнеуровневая-схема)
+  * [Управление ресторанами и оплата услуг](#управление-ресторанами-и-оплата-услугstructureucclient-profilemd) нет текстовой части
+  * [Управление ЮЛ в ЛК](#управление-юл-в-лкstructureucmanager-profilemd) нет текстовой части
+  * [Бронирование столика](#бронирование-столикаstructureucuser-profilemd) нет текстовой части
+* [Модель предметной области](#модель-предметной-области)
+* [Информационная модель](#информационная-модель)
+* [Swagger](https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0) _в работе_
+
+## Глоссарий
+
+Раздел пока пуст
 ## Бизнес цели
 
+Раздел пока пуст
 ## Варианты использования
 
 ### Верхнеуровневая схема
@@ -14,219 +28,20 @@
 [Исходник](src/use-case-general.wsd)
 
 ### [Управление ресторанами и оплата услуг](structure/uc/client-profile.md)
-## Управление ЮЛ в ЛК
 
-```plantuml
-@startuml
+### [Управление ЮЛ в ЛК](structure/uc/manager-profile.md)
 
-Actor "Менеджер" as manager
-package "Система" {
-    usecase "Просмотр списка ЮЛ" as UC1
-    usecase "Просмотр информации о ЮЛ" as UC2
-    usecase "Редактирование информации о ЮЛ" as UC3
-    usecase "Смена активности ЮЛ" as UC4
-}
-
-manager -down-> UC1
-UC2 -up-|> UC1
-UC3 -up-|> UC2
-UC4 -up-|> UC3
-
-@enduml
-```
-
-## Бронирование столика
-
-
-```plantuml
-@startuml
-
-actor "ФЛ" as fl
-package "Система" {
-    usecase "Просмотр списка\nресторанов" as UC1
-    usecase "Просмотр информации\nо ресторане" as UC2
-    usecase "Просмотр списка\nстоликов" as UC3
-    usecase "Бронирование\nстолика" as UC4
-    usecase "Оставить отзыв" as UC5
-    usecase "Просмотр\nрекомендаций" as UC6
-    usecase "Смена пароля" as UC7
-    usecase "Авторизация" as UC8
-    usecase "Регистрация" as UC9
-
-    usecase "Восстановление пароля" as UC10
-    usecase "Просмотр профиля" as UC11
-    usecase "Поиск столика" as UC12
-    usecase "Просмотр списка\nбронирований" as UC13
-    usecase "Просмотр активных\nбронирований" as UC14
-    usecase "Просмотр брони" as UC15
-    usecase "Отмена брони" as UC16
-    usecase "Редактирование\nданных профиля" as UC17
-}
-
-fl -- UC4
-fl -- UC12
-fl -- UC14
-fl -- UC17
-
-' Авторизация
-UC8 <.up. UC12 : <<include>>
-UC8 <.up. UC14 : <<include>>
-UC8 <.up. UC17 : <<include>>
-UC8 <.up. UC4 : <<include>>
-
-UC9 -up-|> UC8 : <<extend>>
-UC6 -up-|> UC1 : <<extend>>
-UC2 -up-|> UC1
-UC3 -up-|> UC4
-UC2 -up-|> UC4
-UC7 -up-|> UC17 : <<extend>>
-UC1 -up-|> UC12
-UC10 -up-|> UC8 : <<extend>>
-UC14 --|> UC13 : <<extend>>
-UC15 -up-|> UC13
-UC15 -up-|> UC14
-UC5 -up-|> UC15 : <<extend>>
-UC16 -up-|> UC15
-UC11 -up-|> UC17
-
-@enduml
-```
+### [Бронирование столика](structure/uc/user-profile.md)
 
 ## Модель предметной области
 
-```plantuml
-@startuml
+![erd](https://plantuml.w1.money/png/dLNTIXj15BxVfnXoALNQguA858fl4P1Dkh5BDxkokw584PAeUA4qjXKgKdzgUz7BLRCQasnyXPatwZbdPjpPJMAXGipc_7xdc-_ClebYEunRJS-otdfs5B4AF-KZFk0fpqItmko8rJtNyMFsoMBmnyzumk_v3VpFC4eQJy1y9Xz_yedeY2xyxvaHc3RWOopB9-NqAtXyPFmQlkx1deeEJwnjowehH1UY3Obzgfj0yW2-KpuIXrMV3tEqF26yJQTPSqADzpU0EzTj80cgxmA2Z4nhJTlrfFE29z1bWbNDrbTa7eXTAWrSkOs6ISNScNx0OyR0VWrKG67HrVQ43qLdXkUSFqAZJh7CASIDqGoEWUWfZec7ZFSH73ndue0_BBDQ47YExPlmIwSXUcm6OI21s8dOoigQtseweHsxWR-wcay9is43-VCx4PBoMmBL9NBQUdmPSWG3Tg77JS5L81NEMnoKJfomr5gHwpjHj1vlRSx7T8aPD5QxNBlaegAX0oEsGliVAbOo78eTiOTsFKqV1nOT-VCRvA28qDHZg2Lifc4bCCWZgWW-ToGCgBxCgh8j1HsJ-vRoaXUv_Oza2wrah6uNLW2o-dXsuhFOruK1QzKdONHe8q2AJ6BD2L2yrWFVT-h88b1Gv2iX8Uv3mGS6FL0PXvJpCGW_kFx6-ZjxI_FsbSv-Z3g2of24P2HJlWaWXHqZVvRhzbWMnzoKEe4I2sf5s2JFeLgtckVergVIXTFJV3Tymd1Y_66i1KXoHvzLUQECLaUWQSaHAb1lBorIyL8X80rFepZ10V__Elb2ninS36mafHy4IFUpyzwgVKxrEXxZn5CdC8SFWzyoxIgEbd8MHj4pCQwhAyEy8k2Jwjb1guGOr-HEQahlo3auv9Lf67_HsgHYJzTB4OmobQupk7B43jH4ueOCOaO4VvSESomE2AVJtFI2BKUBP_x1g9T5vUNIqgiAMrnSKAyxIxtrqB60ZbLMWG3v0fZZbAJCSHOlDikuafu2yzxviXhEFCKoDnCZNaz5oDMPdMrffJrDhI0M3hSGfOeql2bhw6wyZy553IthYNXpVFceXdicGh7x5m00 "erd")
 
-Class "Клиент" as client {
-    Название
-    ИНН
-    Состояние
-    Наименование
-    Тип бизнеса
-}
-
-class "Представитель\nклиента" as member {
-    ФИО
-    Телефон
-    Email
-    Пароль
-}
-
-class "Тариф" as tariff {
-    Наименование
-    Мин оборот
-    Макс оборот
-    Описание
-    Комиссия
-    Стандартный: boolean
-}
-
-class "Состояния клиента" as states <<Enumeration>> {
-    Новый
-    Зарегистрирован
-    Активирован
-}
-
-class "Типы бизнеса" as business_types <<Enumeration>> {
-    Ресторан
-}
-
-class "Ресторан" as restaurant {
-    Название
-    Тип кухни
-    Адрес
-    Галерея фото
-    Расположение: \{
-        Долгота,
-        Широта
-    \}
-}
-
-class "Подключение к\nсистеме ресторана" as connection {
-
-}
-
-class "Рабочий день" as working_day {
-    Время начала
-    Время окончания
-    День недели
-}
-
-class "Столик" as table {
-    Количество мест
-    Статус
-    Описание
-}
-
-class "Авторизованный\nклиент" as fl {
-    Имя
-    Телефон
-    Email
-    Пароль
-}
-
-class "Бронирование" as booking {
-    Количество гостей
-    Дата
-    Время
-    Статус
-    Столик
-}
-
-class "Статусы бронирования" as booking_states {
-    Новое
-    Подтверждено
-    Отменено
-    Успех
-    Неуспех
-}
-
-class "Сотрудник плтаформы" as employee {
-    Email
-    Пароль
-}
-
-member "0..1" --* client
-client "0..*" --> "1" tariff
-client "0..*" --> "1" states
-client "0..*" --> "1" business_types
-restaurant "0..*" --* client
-connection "0..*" --* restaurant
-working_day "0..7" --* restaurant
-table "0..*" --* restaurant
-
-booking "0..1" --> "1" booking_states
-booking "0..*" --* fl
-booking "0..*" -right-* table
-
-employee "0..*" --> "0..*" client
-employee "0..*" --> "0..*" tariff
-
-@enduml
-```
-
+[Исходник](src/erd.wsd)
 ## Информационная модель
 
 ### Context
 
-![](src/unnamed.png)
+![](img/unnamed.png)
 
-### Containers
-
-![](src/unnamed2.png)
-
-| №П/П | Тип             | Наименование              | Технологии               | Описание                                               |
-| ---- | --------------- | ------------------------- | ------------------------ | ------------------------------------------------------ |
-| 1    | Software System | BookingSystem             | Java, Spring Boot        | Сервис, реализующий бизнес логику.                     |
-| 2    | Container       | BookingWebApp             | React, JavaScript        | Веб-интерфейс для клиентов и сотрудников. SPA          |
-| 3    | Container       | BookingAndroidApplication | Kotlin                   | Мобильное приложение для клиентов, Android.            |
-| 4    | Container       | BookingIOSApplication     | Swift                    | Мобильное приложение для клиентов, iOS.                |
-| 5    | Container       | Booking database          | PostgreSQL               | Основная БД проекта.                                   |
-| 6    | Software System | 1C                        | Платформа 1С:Предприятие | Хранение клиентов, автоматизация учета                 |
-| 7    | Software System | Wallet One                | REST API                 | Платежная система для реализации функционала оплаты    |
-| 8    | Software System | Email Service             | SMTP                     | Отправка уведомлений клиентам                          |
-| 9    | Software System | R-Keeper                  | REST API                 | Информация о столиках, расписание, бронирование        |
-| 10   | Software System | Google Maps               | REST API                 | Просмотр ресторанов на карте в интерфейсе пользователя |
-| 11   | Software System | Google Analitycs          | REST API                 | Формирование аналитики по посещениям                   |
-| 12   | Software System | Контур.Фокус              | REST API                 | Проверка контрагентов-юридических лиц                  |
-| 13   | Container       | Keycloak                  | Java, Oauth2             | Сервис авторизации и аутотентификации                  |
+### [Containers](structure/arch/c4-containers.md)

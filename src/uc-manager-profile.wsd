@@ -1,0 +1,16 @@
+@startuml
+
+Actor "Менеджер" as manager
+package "Система" {
+    usecase "Просмотр списка ЮЛ" as UC1
+    usecase "Просмотр информации о ЮЛ" as UC2
+    usecase "Редактирование информации о ЮЛ" as UC3
+    usecase "Смена активности ЮЛ" as UC4
+}
+
+manager -down-> UC1
+UC2 -up-|> UC1
+UC3 -up-|> UC2
+UC4 -up-|> UC3
+
+@enduml
