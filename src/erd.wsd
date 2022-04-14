@@ -46,7 +46,9 @@ class "Ресторан" as restaurant {
 }
 
 class "Подключение к\nсистеме ресторана" as connection {
-
+    логин
+    Пароль
+    Сетевой адрес
 }
 
 class "Рабочий день" as working_day {
