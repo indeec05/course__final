@@ -11,88 +11,9 @@
 
 ![README](https://plantuml.w1.money/png/ZPBDIiD058NtynINxhFG_Yoab8hFu0E4cbQnhP8V4ApGMj2De6wjYABh4bgZeJ_fAvnv8q-ciKeMOc18Sk_vpZqpITtpRTSFEcsbTXl-YIi5Z7KVCTuHwsj4Ue0P4aI2EGjNI0fYUnAqD-etQZ__qZP_j8-8iEHwnmVLVTFks5sxvRXAdTgDOpu9NWWFz2Lr2uHoheHNu3aDstFeyOeLyuMOS4Zg5dCU2v514jDQSYqG6_lzlQsSmHDMH4EgGz53Pfxh8QQPU3idVkQCwJfFQirDnVfMCCOe0uevu9wo98rbxXEJnaGqyTA3uHc56LpwnzxIMOA9O8I732ldi3lCQ1uJsqnbt9lVCIlgGgcWBLRDd0YNL7kMUzGwzArqsx8ZrQfpvZlTWrgDxQ9OLc-jLKrYXYifbNsjh53ElLT8Lhx9eb9rsl7N-W80 "README")
 
-[Исходник]()
-## Верхнеуровневая схема UC
+[Исходник](src/use-case-general.wsd)
 
-```plantuml
-@startuml
-
-Actor "Юридическое лицо" as ul
-Actor "Физическое лицо" as fl
-Actor "Менеджер" as manager
-
-package Система {
-    usecase "Управление ресторанами" as UC1
-    usecase "Оплата услуг" as UC2
-    usecase "Регистрация ЮЛ" as UC3
-    usecase "Бронирование столика" as UC4
-    usecase "Управление ЮЛ в ЛК" as UC5
-    usecase "Активировать ЮЛ" as UC6
-}
-
-ul -> UC1
-UC1 <|-right- UC2 : <<extend>>
-UC3 --|> UC1
-
-fl --> UC4
-
-manager --> UC5
-manager --> UC6
-UC6 --|> UC3
-
-@enduml
-```
-
-## Детальное описание верхнеуровневых UC
-
-### Управление ресторанами и оплата услуг
-
-```plantuml
-@startuml
-
-Actor "Представитель ресторана" as ul
-
-package "Система" {
-    usecase "Добавление ресторана" as UC1
-    usecase "Редактирование\nинформации\nо ресторане" as UC5
-
-    usecase "Добавление столика" as UC2
-    usecase "Оплата услуг" as UC4
-    usecase "Просмотр списка\nресторанов" as UC6
-    usecase "Просмотр данных\nпрофиля" as UC8
-    usecase "Смена пароля" as UC9
-    usecase "Просмотр истории оплат" as UC10
-    usecase "Просмотр\nкарточки\nресторана" as UC11
-
-    usecase "Авторизация" as UC12
-    usecase "Восстановление\nпароля" as UC13
-    usecase "Редактирование\nданных профиля" as UC14
-    usecase "Удаление ресторана" as UC15
-    usecase "Удаление столика" as UC16
-}
-
-ul -- UC14
-ul -- UC2
-
-UC14 ..> UC12 : <<include>>
-UC2 ..> UC12 : <<include>>
-
-UC6 <|-up- UC1
-UC6 <|-- UC11
-UC11 <|-- UC5
-UC2 --|> UC11
-UC9 -up-|> UC8
-UC10 -up-|> UC8
-UC4 -up-|> UC8
-UC8 -up-|> UC14
-UC16 --|> UC11
-UC13 -up-|> UC12 : <<extend>>
-UC11 <|-- UC15
-UC1 <.up. UC2 : <<include>>
-
-@enduml
-```
-
+### [Управление ресторанами и оплата услуг](structure/uc/client-profile.md)
 ## Управление ЮЛ в ЛК
 
 ```plantuml

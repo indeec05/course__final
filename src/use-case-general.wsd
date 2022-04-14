@@ -1,0 +1,26 @@
+@startuml
+
+Actor "Юридическое лицо" as ul
+Actor "Физическое лицо" as fl
+Actor "Менеджер" as manager
+
+package Система {
+    usecase "Управление ресторанами" as UC1
+    usecase "Оплата услуг" as UC2
+    usecase "Регистрация ЮЛ" as UC3
+    usecase "Бронирование столика" as UC4
+    usecase "Управление ЮЛ в ЛК" as UC5
+    usecase "Активировать ЮЛ" as UC6
+}
+
+ul -> UC1
+UC1 <|-right- UC2 : <<extend>>
+UC3 --|> UC1
+
+fl --> UC4
+
+manager --> UC5
+manager --> UC6
+UC6 --|> UC3
+
+@enduml
