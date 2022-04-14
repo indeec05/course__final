@@ -11,7 +11,7 @@
   * [Бронирование столика](#бронирование-столикаstructureucuser-profilemd) нет текстовой части
 * [Модель предметной области](#модель-предметной-области)
 * [Информационная модель](#информационная-модель)
-* [Swagger](https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0) _в работе_
+* [Swagger](https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0)
 
 ## Глоссарий
 
