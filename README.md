@@ -9,6 +9,7 @@
   * [Управление ресторанами и оплата услуг](#управление-ресторанами-и-оплата-услугstructureucclient-profilemd) нет текстовой части
   * [Управление ЮЛ в ЛК](#управление-юл-в-лкstructureucmanager-profilemd) нет текстовой части
   * [Бронирование столика](#бронирование-столикаstructureucuser-profilemd) нет текстовой части
+  * [Регистрация ЮЛ](#регистрация-юлstructureucclient-registrationmd)
 * [Модель предметной области](#модель-предметной-области)
 * [Информационная модель](#информационная-модель)
 * [Swagger](https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0)
@@ -34,6 +35,8 @@
 ### [Управление ЮЛ в ЛК](structure/uc/manager-profile.md)
 
 ### [Бронирование столика](structure/uc/user-profile.md)
+
+### [Регистрация ЮЛ](structure/uc/client-registration.md)
 
 ## Модель предметной области
 
