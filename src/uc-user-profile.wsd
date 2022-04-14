@@ -1,5 +1,4 @@
 @startuml
-
 actor "ФЛ" as fl
 package "Система" {
     usecase "Просмотр списка\nресторанов" as UC1
@@ -20,17 +19,17 @@ package "Система" {
     usecase "Просмотр брони" as UC15
     usecase "Отмена брони" as UC16
     usecase "Редактирование\nданных профиля" as UC17
-}1
-1
-fl -- UC41
-fl -- UC121
-fl -- UC141
-fl -- UC171
-1
-' Авторизация1
-UC8 <.up. UC12 : <<include>>1
-UC8 <.up. UC14 : <<include>>1
-UC8 <.up. UC17 : <<include>>1
+}
+
+fl -- UC4
+fl -- UC12
+fl -- UC14
+fl -- UC17
+
+' Авторизация
+UC8 <.up. UC12 : <<include>>
+UC8 <.up. UC14 : <<include>>
+UC8 <.up. UC17 : <<include>>
 UC8 <.up. UC4 : <<include>>
 
 UC9 -up-|> UC8 : <<extend>>
@@ -47,5 +46,4 @@ UC15 -up-|> UC14
 UC5 -up-|> UC15 : <<extend>>
 UC16 -up-|> UC15
 UC11 -up-|> UC17
-
 @enduml
