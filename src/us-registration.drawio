@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T14:13:30.282Z" agent="5.0 (Windows)" etag="YuTIfb0Nd0MYdmCwUqTm" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T20:05:43.612Z" agent="5.0 (Windows)" etag="VJFLMQNS6fQpHSNYJsmV" version="17.4.5" type="github">
   <diagram id="AL4FGgEh2XQJVH4AOL0E" name="Page-1">
-    <mxGraphModel dx="914" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="960" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,26 +97,38 @@
         <mxCell id="pUq5BihtKd1USRifQXfm-39" value="Nice to have" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="1" y="772" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w3mXrrh2fPT_aT_4P4OX-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="130" as="sourcePoint" />
             <mxPoint x="1130" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w3mXrrh2fPT_aT_4P4OX-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-2" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1" y="749.9999999999999" as="sourcePoint" />
             <mxPoint x="1121" y="749.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w3mXrrh2fPT_aT_4P4OX-3" value="Я как менеджер отдела продаж хочу сохранять контактные данные представителей бизнеса даже если они не подтвердили отправку" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-3" value="Я как менеджер отдела продаж хочу сохранять контактные данные представителей бизнеса даже если они не подтвердили отправку" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="226" y="867.5" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w3mXrrh2fPT_aT_4P4OX-4" value="Я как менеджер отдела продаж хочу, чтобы тарифы были отсортированы в зависимости от размера компании, чтобы представителей бизнеса не смущали тарифы других категорий клиентов" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-4" value="Я как менеджер отдела продаж хочу, чтобы тарифы были отсортированы в зависимости от размера компании, чтобы представителей бизнеса не смущали тарифы других категорий клиентов" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="235" y="620" width="130" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="w3mXrrh2fPT_aT_4P4OX-5" value="Я как представитель бизнеса хочу разлогиниться, если был авторизован, чтобы никто не мог получить доступ к моему ЛК, если я заходил не со своего устройства" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-5" value="Я как представитель бизнеса хочу разлогиниться, если был авторизован, чтобы никто не мог получить доступ к моему ЛК, если я заходил не со своего устройства" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="803" y="270" width="136" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-1" value="US для роли менеджера отдела продаж" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365" y="75" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-2" value="Легенда" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-4" value="US для роли представителя клиента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1365.0000000000002" y="180" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-5" value="US для роли представителя юридиического департамента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="290" width="115" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
