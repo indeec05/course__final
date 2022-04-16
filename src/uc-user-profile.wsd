@@ -1,5 +1,5 @@
 @startuml
-actor "ФЛ" as fl
+actor "Посетитель" as fl
 package "Система" {
     usecase "Просмотр списка\nресторанов" as UC1
     usecase "Просмотр информации\nо ресторане" as UC2
