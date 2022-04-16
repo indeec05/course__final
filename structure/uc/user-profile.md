@@ -1,8 +1,8 @@
 ## Личный кабинет менеджера
 
-![uc-user-profile](https://plantuml.w1.money/png/bLNTRjem5BxtKrZSz2fLGmWP4qALzWozwqr4qsaQOwWGQT9MgKLqDwsqjW_Ghc-GqKRDWC0h7BzHZqyC62Sb0WbY-_lnv-CJSTWV-6U3y5k7-Ut1zpDUWKUOYqk8nH0I_COm5JSLxlVvQOVr_FPN_tE0f2S4BmcUGLJXFnd7JzWFsdvVme_YWbnc-3iK5no72wc02KJ7NGHZKizn544ASnZJ5aUVx18ZI20L8nBYnk8tpfFZBinvpZDMZjNTef45JD5teiLo39CxQOAR9FGSquO9n8O-KkgQeNuWLeGwhB2uuJ89l8hhrNRkzinP1IdW39yflAXI_5Vwkg5_Kho8uraZoZmLVnJPCyYtC5PbJE0rCrvnFnZSlsZxdBM2BFi6jy4CyhqyWpewtJcMASuALvJBFYZhXGKjZD10K-Kw24tfUddXtTYxzGVyAxpvPU5jfonp11FvPg4o5TVYgjonLkQuqYyLRgxTXklxpx7h1LVwienfjZSXQHRzdVfxx9onqmwtBEhyvGZhl1fggnvZUxouvHYs6s_kXxrzalEFlDdyqcrtmfEWrTe4Qzj0Rmje2X5iS2liMRzQiji93NuCWku92Ujhp3QngeRXr5bFQvked7eQsJETR0siold1baXuTajndHpcQawEkI1pw7Ct9zUFwye5FPd73f68Vnnl "uc-user-profile")
+![uc-user-profile](../../img/US-user-profile.drawio.png)
 
-[Исходник](../../src/uc-user-profile.wsd)
+[Исходник](../../src/US-user-profile.drawio)
 
 ## Пользовательские истории
 

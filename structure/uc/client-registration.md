@@ -1,4 +1,6 @@
-![](../../img/uc-client-registration.png)
+![](../../img/us-registration.drawio.png)
+
+[Исходник](../../src/us-registration.drawio)
 
 ## Пользовательские истории
 
