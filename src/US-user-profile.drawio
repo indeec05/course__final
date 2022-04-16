@@ -73,8 +73,7 @@
         <mxCell id="wvL-tG8At92w955u0kJQ-1" value="Как Посетитель я хочу видеть актуальную информацию о столиках Ресторана" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-1" value="Как Посетитель я хочу изменить данные своей УЗ, чтобы они были акутуальными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="wvL-tG8At92w955u0kJQ-1" value="Как Посетитель я хочу изменить данные своей УЗ, чтобы они были актуальными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
           <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
       </root>
