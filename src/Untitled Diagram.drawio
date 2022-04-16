@@ -1,101 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T12:39:38.746Z" agent="5.0 (Windows)" etag="dVn-ILi6GiN_H7zyBySW" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T12:42:34.762Z" agent="5.0 (Windows)" etag="dLgETtBNP_S1wXLOe4xD" version="17.4.5" type="github">
   <diagram id="AL4FGgEh2XQJVH4AOL0E" name="Page-1">
-    <mxGraphModel dx="738" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1371" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pUq5BihtKd1USRifQXfm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="pUq5BihtKd1USRifQXfm-4" target="pUq5BihtKd1USRifQXfm-6">
+        <mxCell id="pUq5BihtKd1USRifQXfm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="pUq5BihtKd1USRifQXfm-4" target="pUq5BihtKd1USRifQXfm-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-4" value="Выбор типа бизнеса, тарифа или инд. условий" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-4" value="Выбор типа бизнеса, тарифа или инд. условий" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="245.00000000000023" y="30" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pUq5BihtKd1USRifQXfm-6" target="pUq5BihtKd1USRifQXfm-10">
+        <mxCell id="pUq5BihtKd1USRifQXfm-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="pUq5BihtKd1USRifQXfm-6" target="pUq5BihtKd1USRifQXfm-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-6" value="Ввод контактных данных и информации о компании" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-6" value="Ввод контактных данных и информации о компании" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="435.0000000000002" y="30" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="pUq5BihtKd1USRifQXfm-10" target="pUq5BihtKd1USRifQXfm-12">
+        <mxCell id="pUq5BihtKd1USRifQXfm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="pUq5BihtKd1USRifQXfm-10" target="pUq5BihtKd1USRifQXfm-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-10" value="Активация ЛК клиента" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-10" value="Активация ЛК клиента" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="626.0000000000002" y="30" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="pUq5BihtKd1USRifQXfm-12" target="pUq5BihtKd1USRifQXfm-13">
+        <mxCell id="pUq5BihtKd1USRifQXfm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="pUq5BihtKd1USRifQXfm-12" target="pUq5BihtKd1USRifQXfm-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-12" value="Вход в ЛК клиента" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-12" value="Вход в ЛК клиента" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="816.0000000000002" y="30" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-13" value="Редактирование контактных данных в ЛК" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-13" value="Редактирование контактных данных в ЛК" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="1006.0000000000002" y="30" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-14" value="Я как представитель бизнеса хочу выбрать тип бизнеса, чтобы получить доступ к выбору тарифа" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-14" value="Я как представитель бизнеса хочу выбрать тип бизнеса, чтобы получить доступ к выбору тарифа" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
           <mxGeometry x="245.00000000000023" y="160" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-15" value="Я как представитель бизнеса хочу указать размер компании, чтобы получить доступ к выбору тарифа" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-15" value="Я как представитель бизнеса хочу указать размер компании, чтобы получить доступ к выбору тарифа" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="245.00000000000023" y="270" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-16" value="Я как представитель крупного бизнеса хочу&amp;nbsp; индивидуальные условия, чтобы получить&amp;nbsp; подходящее мне предложение&lt;br style=&quot;font-size: 10px;&quot;&gt;" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-16" value="Я как представитель крупного бизнеса хочу&amp;nbsp; индивидуальные условия, чтобы получить&amp;nbsp; подходящее мне предложение&lt;br style=&quot;font-size: 10px;&quot;&gt;" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="235" y="500" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-17" value="Я как представитель бизнеса хочу убедиться в выбранном тарифе, чтобы не ошибиться" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="230" y="850" width="110" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-17" value="Я как представитель бизнеса хочу убедиться в выбранном тарифе, чтобы не ошибиться" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="245" y="730" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-18" value="Я как представитель бизнеса хочу ввести контактные данные, чтобы со мной связались" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-18" value="Я как представитель бизнеса хочу ввести контактные данные, чтобы со мной связались" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="435.0000000000002" y="160" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-19" value="Я как представитель бизнеса хочу подтвердить номер телефона, чтобы менеджер точно до меня дозвонился" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="435" y="270" width="110" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-19" value="Я как представитель бизнеса хочу подтвердить номер телефона, чтобы менеджер точно до меня дозвонился" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="435" y="730" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-20" value="Я как пользователь хочу предоставить информацию об организации для заключения договора" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
-          <mxGeometry x="435.0000000000002" y="500" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-20" value="Я как пользователь хочу предоставить информацию об организации для заключения договора" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
+          <mxGeometry x="435.0000000000002" y="275" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-21" value="Я как представитель бизнеса хочу подтвердить свой почтовый адрес, чтобы данные о моей организации приходили только мне" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-21" value="Я как представитель бизнеса хочу подтвердить свой почтовый адрес, чтобы данные о моей организации приходили только мне" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="616" y="265" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-22" value="Я как представитель бизнеса хочу авторизоваться, чтобы доступ к моему ЛК был только у меня" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-22" value="Я как представитель бизнеса хочу авторизоваться, чтобы доступ к моему ЛК был только у меня" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="816.0000000000002" y="160" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-23" value="Я как менеджер отдела продаж хочу сохранять контактные данные представителей бизнеса даже если они не подтвердили отправку" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="385" width="130" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-23" value="Я как менеджер отдела продаж хочу сохранять контактные данные представителей бизнеса даже если они не подтвердили отправку" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="828" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-24" value="Я как представитель бизнеса хочу редактировать контактные данные, чтобы организация общалась с нужными сотрудниками компании" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-24" value="Я как представитель бизнеса хочу редактировать контактные данные, чтобы организация общалась с нужными сотрудниками компании" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="1001" y="155" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-25" value="Я как менеджер отдела продаж хочу проверить данные организации, чтобы составить договор с корректными данными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-25" value="Я как менеджер отдела продаж хочу проверить данные организации, чтобы составить договор с корректными данными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" parent="1" vertex="1">
           <mxGeometry x="621" y="160" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-26" value="Я как представитель бизнеса хочу смотреть свой тариф, чтобы понимать когда и сколько платить за услуги" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1006.0000000000002" y="270" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-26" value="Я как представитель бизнеса хочу смотреть свой тариф, чтобы понимать когда и сколько платить за услуги" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1002.0000000000002" y="390" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-27" value="Я как представитель бизнеса хочу поддерживать информацию о ресторанах в актуальном состоянии, чтобы тариф был оптимальным" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
-          <mxGeometry x="996" y="380" width="130" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-27" value="Я как представитель бизнеса хочу поддерживать информацию о ресторанах в актуальном состоянии, чтобы тариф был оптимальным" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
+          <mxGeometry x="991" y="270" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-29" value="Я как представитель бизнеса хочу видеть историю своих платежей, чтобы иметь возможность сверки" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1002.0000000000002" y="494.5" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-29" value="Я как представитель бизнеса хочу видеть историю своих платежей, чтобы иметь возможность сверки" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1006.0000000000002" y="730" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-30" value="Я как представитель юр департамента хочу, чтобы клиенты могли ознакомиться с политикой обработки перс данных и подтвердить согласие с ней" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-30" value="Я как представитель юр департамента хочу, чтобы клиенты могли ознакомиться с политикой обработки перс данных и подтвердить согласие с ней" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="230" y="615" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-33" value="Я как представитель бизнеса хочу выбрать тариф, чтобы перейти к ввод контактных данных" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="pUq5BihtKd1USRifQXfm-33" value="Я как представитель бизнеса хочу выбрать тариф, чтобы перейти к ввод контактных данных" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="245.00000000000023" y="380" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-35" value="Я как менеджер отдела продаж хочу получить уведомление о регистрации нового представителя бизнеса, чтобы скорее с ним связаться" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="610" width="130" height="90" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-35" value="Я как менеджер отдела продаж хочу получить уведомление о регистрации нового представителя бизнеса, чтобы скорее с ним связаться" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="390" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-36" value="Я как менеджер отдела продаж хочу получить уведомление о незаконченной регистрации, чтобы попытаться все-таки сделать продажу" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="425" y="720" width="130" height="90" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-36" value="Я как менеджер отдела продаж хочу получить уведомление о незаконченной регистрации, чтобы попытаться все-таки сделать продажу" style="shape=note;strokeWidth=2;fontSize=10;size=20;fillColor=#dae8fc;strokeColor=#6c8ebf;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="425" y="505" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-37" value="Я как представитель бизнеса хочу получать напоминания о предстоящих платежах, чтобы не получить простой из-за неоплаченного тарифа" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
-          <mxGeometry x="997" y="612.5" width="120" height="85" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-37" value="Я как представитель бизнеса хочу получать напоминания о предстоящих платежах, чтобы не получить простой из-за неоплаченного тарифа" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1001" y="825.5" width="120" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-38" value="MVP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="60" y="250" width="60" height="30" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-38" value="MVP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="10" y="155" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-39" value="Nice to have" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="50" y="420" width="60" height="30" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-39" value="Nice to have" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="10" y="730" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="130" as="sourcePoint" />
+            <mxPoint x="1130" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w3mXrrh2fPT_aT_4P4OX-2" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="719.9999999999999" as="sourcePoint" />
+            <mxPoint x="1130" y="719.9999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
