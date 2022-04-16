@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" modified="2022-04-16T20:00:22.890Z" agent="5.0 (Windows)" etag="53nKBk9CL8KNHSK3BeIw" version="17.4.5" type="github">
+  <diagram id="Uw1SP8vliRWfZXQLp1HO" name="Page-1">
+    <mxGraphModel dx="960" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-1" value="Я как пользователь хочу выбрать тип бизнеса, чтобы получить релевантные предложения по тарифу" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
