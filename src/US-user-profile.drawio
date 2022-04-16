@@ -1,80 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T20:00:22.890Z" agent="5.0 (Windows)" etag="53nKBk9CL8KNHSK3BeIw" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-16T20:57:27.360Z" agent="5.0 (Windows)" etag="xo-7flxitD-reDmjVFgz" version="17.4.5" type="github">
   <diagram id="Uw1SP8vliRWfZXQLp1HO" name="Page-1">
-    <mxGraphModel dx="960" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1129" dy="711" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wvL-tG8At92w955u0kJQ-1" value="Как Посетитель я хочу авторизоваться, чтобы больше ни у кого не было доступа к моему личному кабинету" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-1" value="Как Посетитель я хочу авторизоваться, чтобы больше ни у кого не было доступа к моему личному кабинету" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="345" y="390" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-2" value="Как Посетитель я хочу иметь возможность разлогиниться, чтобы в мой ЛК не мог попасть посторонний, если я залогинился не на своем устройстве" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-2" value="Как Посетитель я хочу иметь возможность разлогиниться, чтобы в мой ЛК не мог попасть посторонний, если я залогинился не на своем устройстве" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="345" y="280" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-3" value="Как Посетитель я хочу иметь возможность зарегистрироваться для того, чтобы получить возможность делать бронирования" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-3" value="Как Посетитель я хочу иметь возможность зарегистрироваться для того, чтобы получить возможность делать бронирования" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="155" y="175" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-4" value="Как Посетитель, я хочу иметь возможность восстановить пароль для сулучая, если он больше мне не доступен" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-4" value="Как Посетитель, я хочу иметь возможность восстановить пароль для сулучая, если он больше мне не доступен" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="340" y="180" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-5" value="Как Посетитель я хочу найти свободный столик по своим параметрам, чтобы потратить как можно меньше времени на бронирование" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-5" value="Как Посетитель я хочу найти свободный столик по своим параметрам, чтобы потратить как можно меньше времени на бронирование" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="545" y="690" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-6" value="Как Посетитель я хочу посмотреть список всех ресторанов для того, чтобы выбрать наиболее мне интересный" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-6" value="Как Посетитель я хочу посмотреть список всех ресторанов для того, чтобы выбрать наиболее мне интересный" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="550" y="590" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u0kJQ-7" value="Как Посетитель я хочу посмотреть всю информацию о ресторане на одной странице, чтобы познакомиьтся с ним поближе" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u0kJQ-7" value="Как Посетитель я хочу посмотреть всю информацию о ресторане на одной странице, чтобы познакомиьтся с ним поближе" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="550" y="390" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w155u0kJQ-1" value="Как Посетитель я хочу забронировать столик, чтобы принять пищу в подходящем месте в удобное мне время в соответствии с размером компании" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w155u0kJQ-1" value="Как Посетитель я хочу забронировать столик, чтобы принять пищу в подходящем месте в удобное мне время в соответствии с размером компании" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="545" y="280" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w925u0kJQ-1" value="Как сотрудник ресторана я хочу видеть регистрации бронирований в системе учета ресторана" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w925u0kJQ-1" value="Как сотрудник ресторана я хочу видеть регистрации бронирований в системе учета ресторана" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="730" y="180" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w935u0kJQ-1" value="Как Посетитель я хочу посмотреть список столиков прямо на странице Ресторана, чтобы быстро его забронировать" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w935u0kJQ-1" value="Как Посетитель я хочу посмотреть список столиков прямо на странице Ресторана, чтобы быстро его забронировать" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="545" y="490" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w945u0kJQ-1" value="Как Посетитель я хочу иметь возможность посмотреть свои активные бронирования, чтобы быстро вспомнить ту или иную информацию о брони" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w945u0kJQ-1" value="Как Посетитель я хочу иметь возможность посмотреть свои активные бронирования, чтобы быстро вспомнить ту или иную информацию о брони" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="715" y="275" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w975u0kJQ-1" value="Как Посетитель я хочу посмотреть историю бронирований, чтобы вспомнить детали одного из них" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w975u0kJQ-1" value="Как Посетитель я хочу посмотреть историю бронирований, чтобы вспомнить детали одного из них" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="920" y="180" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w965u0kJQ-1" value="Как Посетитель я хочу оставить отзыв на посещенный ресторан, чтобы помочь другим пользователям выбирать, где принять пищу" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w965u0kJQ-1" value="Как Посетитель я хочу оставить отзыв на посещенный ресторан, чтобы помочь другим пользователям выбирать, где принять пищу" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="715" y="820" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w985u0kJQ-1" value="Как Посетитель я хочу добавить описание к отзыву, чтобы отзыв не был голословным" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w985u0kJQ-1" value="Как Посетитель я хочу добавить описание к отзыву, чтобы отзыв не был голословным" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="725" y="930" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w995u0kJQ-1" value="Как Посетитель я хочу посмотреть описания к отзывам по ресторану, чтобы знать, что именно не устроило других посетителей и важно ли это мне" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w995u0kJQ-1" value="Как Посетитель я хочу посмотреть описания к отзывам по ресторану, чтобы знать, что именно не устроило других посетителей и важно ли это мне" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="540" y="820" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w951u0kJQ-1" value="Как предствитель Клиента, я хочу видеть описания к отзывам, чтобы знать, что мне можно улучшить" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w951u0kJQ-1" value="Как предствитель Клиента, я хочу видеть описания к отзывам, чтобы знать, что мне можно улучшить" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="725" y="1030" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w952u0kJQ-1" value="Как Посетитель я хочу посмотреть данные своей УЗ, чтобы быть уверенным, что все указано верно" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w952u0kJQ-1" value="Как Посетитель я хочу посмотреть данные своей УЗ, чтобы быть уверенным, что все указано верно" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="280" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w953u0kJQ-1" value="Как Посетитель я хочу подтвердить новый телефон при его изменении, чтобы избежать ошибки в них и не потерять доступ к своей УЗ" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w953u0kJQ-1" value="Как Посетитель я хочу подтвердить новый телефон при его изменении, чтобы избежать ошибки в них и не потерять доступ к своей УЗ" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="1117.5" y="825" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w954u0kJQ-1" value="Как Посетитель я хочу подтвердить новый email при его изменении, чтобы избежать ошибки в них и не потерять доступ к своей УЗ" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w954u0kJQ-1" value="Как Посетитель я хочу подтвердить новый email при его изменении, чтобы избежать ошибки в них и не потерять доступ к своей УЗ" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="1102.5" y="480" width="125" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w956u0kJQ-1" value="Как представитель Клиента я хочу получать уведомления, когда поему ресторану оставляют новый отзыв, чтобы быть в курсе предпочтений посетителей" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w956u0kJQ-1" value="Как представитель Клиента я хочу получать уведомления, когда поему ресторану оставляют новый отзыв, чтобы быть в курсе предпочтений посетителей" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="720" y="1130" width="130" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w957u0kJQ-1" value="Как Посетитель я хочу иметь возможность отменить бронь, когда она становится не акутальна" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w957u0kJQ-1" value="Как Посетитель я хочу иметь возможность отменить бронь, когда она становится не акутальна" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="920" y="280" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w958u0kJQ-1" value="Как Посетитель я хочу иметь возможность изменить пароль, чтобы доступ в мой ЛК остался только у меня в случае его компрометации" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w958u0kJQ-1" value="Как Посетитель я хочу иметь возможность изменить пароль, чтобы доступ в мой ЛК остался только у меня в случае его компрометации" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="380" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w959u0kJQ-1" value="Как Посетитель я хочу видеть актуальную информацию о столиках Ресторана" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w959u0kJQ-1" value="Как Посетитель я хочу видеть актуальную информацию о столиках Ресторана" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="550" y="180" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wvL-tG8At92w955u1kJQ-1" value="Как Посетитель я хочу изменить данные своей УЗ, чтобы они были актуальными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="110.00000000000001" height="80" as="geometry" />
+        <mxCell id="wvL-tG8At92w955u1kJQ-1" value="Как Посетитель я хочу изменить данные своей УЗ, чтобы они были актуальными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="180" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GLErqjDQ1SCSIou4Nq--2" target="2GLErqjDQ1SCSIou4Nq--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--2" value="Регистрация" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="160.00000000000023" y="60" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GLErqjDQ1SCSIou4Nq--4" target="2GLErqjDQ1SCSIou4Nq--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--4" value="Авторизация" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="350.0000000000002" y="60" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GLErqjDQ1SCSIou4Nq--6" target="2GLErqjDQ1SCSIou4Nq--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--6" value="Поиск столика и просмотр списка ресторанов" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="540.0000000000002" y="60" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GLErqjDQ1SCSIou4Nq--8" target="2GLErqjDQ1SCSIou4Nq--10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--8" value="Просмотр деталей и создание бронирование" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="730.0000000000002" y="60" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--10" value="Работа с бронями" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="920.0000000000002" y="60" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--12" value="Работа с профилем" style="shape=note;strokeWidth=2;fontSize=14;size=20;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1110.0000000000002" y="60" width="110.00000000000001" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--14" value="MVP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="20" y="175" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--15" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="160" as="sourcePoint" />
+            <mxPoint x="1247.0588235294117" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--16" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="19.999999999999996" y="800" as="sourcePoint" />
+            <mxPoint x="1237.0588235294117" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--17" value="Nice to have" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="20" y="810" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--18" value="Легенда" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--22" value="US для роли представителя клиента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="170" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2GLErqjDQ1SCSIou4Nq--23" value="US для роли Посетитея" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1435.0000000000002" y="275" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
