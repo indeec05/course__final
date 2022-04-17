@@ -1,0 +1,17 @@
+@startuml
+
+actor Client
+participant front
+participant back
+
+Client -> front : завершил регистрацию
+    front ++
+    front -> back : POST /clients
+        back ++
+    return clientId
+    front -> back : POST /members\nс правильным clientId
+        back ++
+    return 200 OK
+return Успех
+
+@enduml

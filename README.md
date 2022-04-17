@@ -2,19 +2,17 @@
 
 ## Оглавление
 
-* [Глоссарий](#глоссарий) раздел пока пуст
-* [Бизнес цели](#бизнес-цели) раздел пока пуст
-* [Пользовательские истории](#пользовательские-истории)
-  * [Верхнеуровневая схема](#верхнеуровневая-схема)
-  * [Управление ресторанами и оплата услуг](#управление-ресторанами-и-оплата-услугstructureucclient-profilemd)
-  * [Управление ЮЛ в ЛК](#управление-юл-в-лкstructureucmanager-profilemd)
-  * [Бронирование столика](#бронирование-столикаstructureucuser-profilemd) нет текстовой части
+* [Глоссарий](#глоссарий)
+* [Бизнес цели](#бизнес-цели) в процессе наполнения
+* [Требования к частям системы](#требования-к-частям-системы)
+  * [Роли пользователей системы](#роли-пользователей-системы)
+  * [ЛК Клиента](#лк-клиентаstructureucclient-profilemd) нет текстовой части
+  * [ЛК Менеджера](#лк-менеджераstructureucmanager-profilemd)
+  * [ЛК Постетителя](#лк-постетителяstructureucuser-profilemd)
   * [Регистрация ЮЛ](#регистрация-юлstructureucclient-registrationmd)
 * [Модель предметной области](#модель-предметной-области)
 * [Информационная модель](#информационная-модель)
 * [Swagger](https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0)
-
-TODO: изменить названия глав в пользовательских историях и верхнеуровневую схему
 
 ## Глоссарий
 
@@ -38,7 +36,7 @@ TODO: изменить названия глав в пользовательск
 
 Раздел пока пуст
 
-## Пользовательские истории
+## Требования к частям системы
 
 ### Роли пользователей Системы
 
@@ -48,32 +46,14 @@ TODO: изменить названия глав в пользовательск
 |Посетитель|Пользователь, использующий Систему для бронирования ресурсов Клиентов|
 |Менеджер|Сотрудник Компании, осуществляющий набор взаимодействий с Клиентом от лица Компании|
 
-### Верхнеуровневая схема
+### [ЛК Клиента](structure/uc/client-profile.md)
 
-![README](https://plantuml.w1.money/png/ZPBDIiD058NtynINxhFG_Yoab8hFu0E4cbQnhP8V4ApGMj2De6wjYABh4bgZeJ_fAvnv8q-ciKeMOc18Sk_vpZqpITtpRTSFEcsbTXl-YIi5Z7KVCTuHwsj4Ue0P4aI2EGjNI0fYUnAqD-etQZ__qZP_j8-8iEHwnmVLVTFks5sxvRXAdTgDOpu9NWWFz2Lr2uHoheHNu3aDstFeyOeLyuMOS4Zg5dCU2v514jDQSYqG6_lzlQsSmHDMH4EgGz53Pfxh8QQPU3idVkQCwJfFQirDnVfMCCOe0uevu9wo98rbxXEJnaGqyTA3uHc56LpwnzxIMOA9O8I732ldi3lCQ1uJsqnbt9lVCIlgGgcWBLRDd0YNL7kMUzGwzArqsx8ZrQfpvZlTWrgDxQ9OLc-jLKrYXYifbNsjh53ElLT8Lhx9eb9rsl7N-W80 "README")
+### [ЛК Менеджера](structure/uc/manager-profile.md)
 
-[Исходник](src/use-case-general.wsd)
-
-### [Управление ресторанами и оплата услуг](structure/uc/client-profile.md)
-
-### [Управление ЮЛ в ЛК](structure/uc/manager-profile.md)
-
-### [Бронирование столика](structure/uc/user-profile.md)
+### [ЛК Постетителя](structure/uc/user-profile.md)
 
 ### [Регистрация ЮЛ](structure/uc/client-registration.md)
 
-### TODO: [ЛК Клиента]
+## [Модель предметной области](structure/erd/erd.md)
 
-## Модель предметной области
-
-![erd](https://plantuml.w1.money/png/dLNTIXj15BxVfnXoALNQguA858fl4P1Dkh5BDxkokw584KnKl50QsmeLgJ-rlUZbccGrncnyXPatwZbdPjpPJMAXGipc_7xdc-_ClebYEunRJS-otdfs5B4AF-CFVCXJdebEXTaHgtkkuyViayNWZv_pXD_n7lpFC4eQJy5yBXz_yebeYmxyxveHc3RaOopB9-NqQtXyPFm6lkx0deesJwnjowehH9TY1n87L3U1v25yf_n175LzFihHyeJmDfrcpGartjy0xaAtWIIelWS8CZAjDMtNayvBda2N2LOrMr-JUIZsg3HmvJOQ9XLpP_e1Zna3-mrG0OL5HziJFXBj6PuB_WYDsiKoPn0tHZCuXgAhE2OUCZv0SF2SYKD-lyngGU0vjc_2Bvs6wB8PX844OYTYAojhVglfX7Ri1lxgQZubp8ODvC_lH4ZA-mIgG-JiwF5bo34Cs84UlOAhG2gSjpWidJXXgRKYrtUYQ3tUsfoFwGepQAoTSksIYug63epO2kr_g5Z9S2HsnJxQzJG375YqvSzla8CYGbENePQmcOQLm22Fg2But98meFeogygs57H2xZxb9Izo-n_95bh9MDqkh01a3V3in6Tne0i3rgfFmcZJHe0KcSIQ4w1uhGU-xzIHHKq1GkoZIAVrhnOvfQ8zCDupAALfA92Ta8eFe0x434XMHzJmOn1-SFsDzNVsbkxubOGpHX42B4X29fCftmJ6X0KbVvQB_aGMnzoKEe6C2rB7cKdR8xMhDS_HhS-a2waZSc0eXdJX3sEdGC-x-g3BwsYqEeQ5a0IZVFNgqnOMRoG2ql0qYbCSyF_leYzapCojmaPoRu80wNvsthww35AzooSuyTG9pE73uBTCkugZZPw5KNHDZElglZ7l5_YaUdOGEY767RkLcj8BTW4EUTyQnb-qSwdOr_LI1ADCfRiGxYkn2pMHk163c0U2lqU7EHQ7XDDfRdh1bgF5C_zWr9kcyd9fwLM5BIukg7UbfLwPw5X0noghG81yUynnIbBcE8ktecNSPq-1UUzyqmrddcAPcuaHhwSYvEhCphQqqfwcLX0BXrk8KaKQtfGrT3VUn-2YXfRrHBmvldnKmpqJeTZz2m00 "erd")
-
-[Исходник](src/erd.wsd)
-
-## Информационная модель
-
-### Context
-
-![](img/unnamed.png)
-
-### [Containers](structure/arch/c4-containers.md)
+## [Архитектура системы](structure/arch/c4-containers.md)
