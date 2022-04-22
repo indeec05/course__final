@@ -1,1 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-04-22T19:44:56.933Z" agent="5.0 (Windows)" version="17.4.5" etag="gWxSkTU-JEsHXCR_L0Q8" type="github"><diagram id="Klbo_Q1Ww2Q-FXg_sPQw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-22T19:49:12.710Z" agent="5.0 (Windows)" etag="nV6N46a-3pDmJ380OFVR" version="17.4.5" type="github">
+  <diagram id="Klbo_Q1Ww2Q-FXg_sPQw" name="Page-1">
+    <mxGraphModel dx="960" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4_pAs--_pv3BcC0bp1nY-1" value="&lt;div style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;consolas&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; font-weight: normal; font-size: 12px; line-height: 19px;&quot;&gt;&lt;div style=&quot;font-size: 12px&quot;&gt;Как менеджер я хочу иметь возможность отмечать, что оплата Клиентом произведена, чтобы Клиент не работал бесплатно&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;strokeWidth=2;fontSize=12;size=20;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;spacing=0;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="170" height="110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
