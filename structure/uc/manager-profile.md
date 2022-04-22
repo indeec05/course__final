@@ -1,8 +1,8 @@
 ## Личный кабинет менеджера
 
-![uc-manager-profile](https://plantuml.w1.money/png/ZP5TIiD058NVxoekUS-3JP-buXfSm926FcZJaXzyK24jqaqeQ3SWGOo4Ok8MpjsHPqAbfIywC70FzvvlpinCyi9bHJc_4Rc8YqMc0PxHeEF-m2SQgm9rkSvTwcP99aiNNxFWr1QjhMpDkI_KWTw9SfLv4hlSjr-iGcyhDdjRMwKilxq3EzIADpmDsAlBipzyQD7P8qNbpx4DTQleZn6Z4yJhaBt6ZkbQZyCxLKTdynzST8BRSj8_26FlcUHrFgIlZvrZUH3PlvI6qyLj6fuFLsH63SjbUFyheuCSKOuFCXAP9EcK7_83 "uc-manager-profile")
+![](../../img/us-client-lk.drawio.png)
 
-[Исходник](../../src/uc-manager-profile.wsd)
+[Исходник](../../src/us-client-lk.drawio)
 
 1. Как менеджер я хочу иметь возможность отмечать, что оплата Клиентом произведена, чтобы Клиент не работал бесплатно.
 
