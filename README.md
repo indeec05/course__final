@@ -37,10 +37,6 @@
   * [Бизнес процессы](#бизнес-процессы)
   * [Роли пользователей системы](#роли-пользователей-системы)
   * [Функциональные требования к частям Системы](#функциональные-требования-к-частям-системы)
-    * [ЛК Клиента](#лк-клиентаstructureucclient-profilemd)
-    * [ЛК Менеджера](#лк-менеджераstructureucmanager-profilemd)
-    * [ЛК Посетителя](#лк-посетителяstructureucuser-profilemd)
-    * [Регистрация ЮЛ](#регистрация-юлstructureucclient-registrationmd)
 * [Модель предметной области](#модель-предметной-области)
 * [Архитектура системы](#архитектура-системыstructurearchc4-containersmd)
 
@@ -91,13 +87,10 @@
 
 Ниже перечислены функциональные требования к Системе, разделенные для удобства работы по основным интерфейсам
 
-#### [ЛК Клиента](structure/uc/client-profile.md)
-
-#### [ЛК Менеджера](structure/uc/manager-profile.md)
-
-#### [ЛК Посетителя](structure/uc/user-profile.md)
-
-#### [Регистрация ЮЛ](structure/uc/client-registration.md)
+* [ЛК Клиента](structure/uc/client-profile.md)
+* [ЛК Менеджера](structure/uc/manager-profile.md)
+* [ЛК Посетителя](structure/uc/user-profile.md)
+* [Регистрация ЮЛ](structure/uc/client-registration.md)
 
 ## [Модель предметной области](structure/erd/erd.md)
 
