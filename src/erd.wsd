@@ -12,8 +12,6 @@ Class "Клиент" as client {
 class "Представитель\nклиента" as member {
     ФИО
     Телефон
-    Email
-    Пароль
 }
 
 class "Тариф" as tariff {
@@ -66,11 +64,9 @@ class "Столик" as table {
     Описание
 }
 
-class "Авторизованный\nклиент" as fl {
+class "Посетитель" as fl {
     Имя
     Телефон
-    Email
-    Пароль
 }
 
 class "Бронирование" as booking {
@@ -90,8 +86,12 @@ class "Статусы бронирования" as booking_states {
 }
 
 class "Сотрудник плтаформы" as employee {
+}
+
+class "Пользователь" as User {
     Email
     Пароль
+    Роль
 }
 
 member "0..1" --* client
@@ -105,7 +105,11 @@ table "0..*" --* restaurant
 
 booking "0..1" --> "1" booking_states
 booking "0..*" --* fl
-booking "0..*" -right-* table
+booking "0..*" -right-> table
 
 employee "0..*" --> "0..*" client
 employee "0..*" --> "0..*" tariff
+
+member --|> User
+fl --|> User
+employee --|> User
