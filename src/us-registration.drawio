@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-16T20:05:43.612Z" agent="5.0 (Windows)" etag="VJFLMQNS6fQpHSNYJsmV" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-30T15:37:40.325Z" agent="5.0 (Windows)" etag="M0poHBvCTQUDzzzkJ-iF" version="17.4.6" type="github">
   <diagram id="AL4FGgEh2XQJVH4AOL0E" name="Page-1">
     <mxGraphModel dx="960" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -53,7 +53,7 @@
           <mxGeometry x="435.0000000000002" y="275" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pUq5BihtKd1USRifQXfm-21" value="Я как представитель бизнеса хочу подтвердить свой почтовый адрес, чтобы данные о моей организации приходили только мне" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
-          <mxGeometry x="616" y="265" width="130" height="90" as="geometry" />
+          <mxGeometry x="616" y="155" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pUq5BihtKd1USRifQXfm-22" value="Я как представитель бизнеса хочу авторизоваться, чтобы доступ к моему ЛК был только у меня" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="816.0000000000002" y="160" width="110.00000000000001" height="80" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry x="1001" y="155" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pUq5BihtKd1USRifQXfm-25" value="Я как менеджер отдела продаж хочу проверить данные организации, чтобы составить договор с корректными данными" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" parent="1" vertex="1">
-          <mxGeometry x="621" y="160" width="120" height="80" as="geometry" />
+          <mxGeometry x="621" y="772" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="pUq5BihtKd1USRifQXfm-26" value="Я как представитель бизнеса хочу смотреть свой тариф, чтобы понимать когда и сколько платить за услуги" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="1002.0000000000002" y="390" width="110.00000000000001" height="80" as="geometry" />
@@ -94,8 +94,8 @@
         <mxCell id="pUq5BihtKd1USRifQXfm-38" value="MVP" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="10" y="155" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pUq5BihtKd1USRifQXfm-39" value="Nice to have" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="1" y="772" width="160" height="30" as="geometry" />
+        <mxCell id="pUq5BihtKd1USRifQXfm-39" value="NTH" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#666600;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="1" y="772" width="59" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w3mXrrh2fPT_aT_4P4OX-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -118,16 +118,16 @@
         <mxCell id="w3mXrrh2fPT_aT_4P4OX-5" value="Я как представитель бизнеса хочу разлогиниться, если был авторизован, чтобы никто не мог получить доступ к моему ЛК, если я заходил не со своего устройства" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="803" y="270" width="136" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="vI7l9nWLUuGwJrAZedBP-1" value="US для роли менеджера отдела продаж" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" vertex="1" parent="1">
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-1" value="US для роли менеджера отдела продаж" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;html=1;" parent="1" vertex="1">
           <mxGeometry x="1365" y="75" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vI7l9nWLUuGwJrAZedBP-2" value="Легенда" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-2" value="Легенда" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="1380" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vI7l9nWLUuGwJrAZedBP-4" value="US для роли представителя клиента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" vertex="1" parent="1">
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-4" value="US для роли представителя клиента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#666600;html=1;" parent="1" vertex="1">
           <mxGeometry x="1365.0000000000002" y="180" width="110.00000000000001" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vI7l9nWLUuGwJrAZedBP-5" value="US для роли представителя юридиического департамента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="vI7l9nWLUuGwJrAZedBP-5" value="US для роли представителя юридиического департамента" style="shape=note;strokeWidth=2;fontSize=10;size=20;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1360" y="290" width="115" height="80" as="geometry" />
         </mxCell>
       </root>
