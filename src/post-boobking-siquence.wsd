@@ -1,0 +1,44 @@
+@startuml
+
+actor "Посетитель" as v
+participant "Приложение" as a
+participant "System" as s
+participant "R-Keeper" as r
+
+v -> a : Создать бронирование
+    v++
+    a++
+    a -> s : POST /bookings
+        s++
+        s->s : Есть ли\nбронирования\nна это время
+alt Бронирований нет
+        s->r : GET справочник бронирований
+            r++
+        return
+    alt Бронирований нет
+        s->r : Новое бронирование
+            r++
+        return
+    s -> s: сохранить у себя
+    s --> a: успех
+    s --
+a --> v : успех
+a--
+    else Время занято
+    s ++
+        s --> a : время занято
+        s --
+        a ++
+    a --> v : время занято
+    a --
+    end alt
+else Время занято
+    s++
+        s --> a: время занято
+        s--
+        a++
+        a --> v : время занято
+    a--
+end alt
+v--
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+
+queue queue as q
+participant synchronizer as s
+participant "R-Keeper" as r
+
+-> q
+    q++
+loop Раз в период
+    s -> q : получить сообщения
+        s++
+    return
+    s -> r : получить справочник\nбронирований
+        r ++
+    return
+alt Если были изменения в R-Keeper
+    s -> s : обновить БД
+end alt
+alt Если были сообщения в оччереди
+    s -> r : обновить справочник
+end alt
+s -> s: сохранить результат\nвыполнения
+@enduml

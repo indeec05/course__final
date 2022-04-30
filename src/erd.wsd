@@ -45,6 +45,7 @@ class "Ресторан" as restaurant {
         Долгота,
         Широта
     \}
+    ID ресторана в R-keeper
 }
 
 class "Подключение к\nсистеме ресторана" as connection {
@@ -63,6 +64,7 @@ class "Столик" as table {
     Количество мест
     Статус
     Описание
+    ИД столика в R-Keeper
 }
 
 class "Посетитель" as fl {
@@ -76,6 +78,7 @@ class "Бронирование" as booking {
     Время
     Статус
     Столик
+    ИД бронирования в R-Keeper
 }
 
 class "Статусы бронирования" as booking_states {
