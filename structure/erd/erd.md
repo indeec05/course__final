@@ -1,8 +1,105 @@
 ## Модель предметной области
 
-![erd](https://plantuml.w1.money/png/ZLPBJnDH5DxFhxZfabYZAnD2Y8coCEvCt96GWeCsJAUaKsA8ahG5mW8ZFaWaH53GXSkXC5hQJlaBz_uZltFklVDefoW9xSmvvvx7TyvtRXy6pKgZkL7p7EUHLma2KPB7SY1xCfAnwfH49H0hNjNrc-AD8_0dJsGe_yWkFcEoqi8ZY4_quvaSgRRguFCWQq77Ud98RkLe_FWv7c-4lC3N7yWZrPPXuarU8fyG8XmLgYtKDfu7xAI764FP4tYvK2tul43OZkpBtg8lR-2d1NjvnS5YjQzsPyLolUwv5Lzx_m9D7mSZ60yuDLZ9Qs7oZ73qDtbnjXndnQ3pZUslkCQGS-ZWVQ3U8MG_HKw6Z5tDhIsx3OlTJm1rQakEAAJQGUvnrlyvQct1wmwVHtEggwjPxAU2-1MFCKC145e4X9LJaUq2pIdAxX7MMJV7i1kI60hWc_FTXmuLgZrg4Mhiof7GpUR2ITqT2_h_HyuOq9ZQXRvrT2lIXcKW6XinTI0AaCTSDzr0pCqj-1irjr5fLkl-_7oA9E9IW6GGkAsNN7Y76z2o46kJ3wYdWnZTd2hNE0onsXyROyvbUIEe-cuGB3KtrwVdzDr0DE9HplaUKx7JXeiIDngLVr3JSAiFskoIt5PpHGMhjdxzZ3CqZIGw43IK5CocHUIxuOQDY0_Q-wnOr67Pw93Lbtmkl9FAVscqICh2nIt-Ul9OwF1fJJ8KiYkUbTTSTzrjv1W7trVKOVMUnaY7HqMBFezecma8KXIurFkhxllk2c5jWHhmLkdPrdxZxe-8n7RhHEmKmqhR84p0ohL4hviz-Bcc9KF3zuu3lgutrgh-owKNbKqRyHEFrv165MdX4E4TJkX6J8YOzN5AlqFjN9YTH9kZboD4oYUpDPOzruO-Bc0WmKKl6UPXwhVjE1GkXYDvc6UkQTZJeeRHkYQwsEN8QQrwDgSZAlSVY_0ZzoJEqesIqOIgrmdXMqkyD5iYiYG_f28dG9y2GGRIj7o-PIPoeiOL0v7noekX-7IseYMpjh9h2l-H7LGmWUiZglxMGsTvUWg5lRSIuG-cRgHshR-8hqyj6bkfM7jg6pu9vhwWAv7Jts4w3TK-v-dMrhtwfalJDKPHT1dRX-lATVrva5o02xLArPl2kU_c1LxDfLcwT_Vk_P8ebsVCJn37_18XnGmfvaK91lgEdABKU4vHvlUoazceYM4QEzqY6MLwnCcodYmUJ5XeMXQVTkn89rMR57DpaRCoJbQz2McZ-l9L4muueECaFSkMhnzDSRTO67HjKyhbj_FSKWTiJbyI1udeBm00 "erd")
+![erd](https://plantuml.w1.money/png/ZLRBRXD95DttLvIyH1Z1QYI4ef465eWTqkmYHKweW9LsEt8xGX4WsKuY5a6JUGGHHH08i63PSTB4iTtEBrJz4UVUgkgkzWCcKkpkkkzpxptbt-DshTNUQeH1y4TOYsDHKSTgf0OgLPdkLKGj5cjXNKPjyI8G-5CVLA8kLH-V6McPmoCSVp2FfsgYkxg7pmDVWym6QankrMJQ_3CUhuKwmzSbpbFTLKdkJPqZdmH7C1MwA_GEdaViP80OOpKGU3dJ7VWyGzYU6gh1SgIkuQS3VNN1mJAzh_VkYjLcCvIro7X_1yaGXYcKHvmQjDILi7ccCFrENe9NGR1cqVd8-XTSOy8vzF0-qcyGSbWWfnB6hY4RgxBbiFiAe4vSoIc5rBl8FVFzVqQj7NZTPNiqfxw-xcE_4CJtUCmO2e3G8I3SEHNPdICvGTa3mjftSmozCHr307nBleUGeKBzcbg46ljg8aopkN0IzwU2_d-JKmOqetQXRptJYg9XW4X6MmqWD3LX-a3C0HvZtPQnk7Vl0OnagzQkDwEbfG98X2N_-HnmLy-vxXxZtt486vM_KKuFCVebKP4KZx3UdnfYJcLrAwv7CevNsjkRYrFwP06Qy22NHc9An4vR4XLkjMg_M4oxMKCipHwTks8kg5xTDQ__mOPcaOuE18qa1NDfqUfTSxicj0t6-rsnRCAoqY6BpzakkLcSVpDWqIaVBh_YhuVtXGbVrAGIeVhYSNL3oatPciRLAu2BtwYtrvx9o0BwmXLr2Tq4xUjY7X8tkc_HQ6eOw41TbKN7lC13mYqN-9iEgmiQBVqNZQyf7AaiHxmQNLvyBEESOWnlDgD8hb6NNOeZPhE1cwcFF7OJ8W_7TYaxnP8G2oLvcqh3O6ZkDVnS4RdHrB_XWC-RhOrwz7JbIMtRHVoNvtfCEuAqO4ITJcPa4rx4ZELPiVQ7nhcmN4YCDV1pEItssBBLQYXTwECvcqzmqOktyUZNZXl4kOHqf0xBZ657vL4-Abx3w9gWFNMap6cjXowd8oht5mJy3_Say_USaZ6ht6mImZyjyTpIK-hOvP2Ad05z0GGUf4NvVBlDv4IDAmFX2B9moemqtzWlQCNIfK-F-4_Td68Hk3pYYEzcvXn1d43Whilyy0jpHghtdB-KRsrpv0yGaGFOVWS-2UMXe9kOqz_bRHhhVSvJDZR3vhQauPhQK3GPYyzrbPh-PvpVkmyQjNguOEK-sHTujNTrvVQjMtSgebgzON_v1FO740bka619LA1WhkO5GeFd0c7vGWWyAiyLyzZpXCPBYGG3Zsmy9uLru9C3QVmses6sTxvru2O_HyUMKfgVafPriXxEdBRgJv-ruO03OcfTR_q2pQC5uISQjWkkUTNgooLkVO2bBrvo1_dH3m00 "erd")
 
 [Исходник](../../src/erd.wsd)
+
+### Опсиание свойств сущностей
+
+#### Клиент
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Название                                   | string  | Да | Наименование клиента в Системе                       |
+| ИНН                                        | string  | Да | ИНН клиента                                          |
+| Состояние                                  | enum    | Да | Состояние клиента из перечня                         |
+| Наименование                               | string  | Да | Полное наименование клиента                          |
+| Тип бизнеса                                | string  | Да | Тип бизнеса из перечня                               |
+| Согласен с условиями обработки перс данных | boolean | Да | Согласен ли клиент с политикой обработки перс данных |
+| Закрепленный менеджер                      | uuid    |    | Закрепленный за клиентом менеджер                    |
+
+#### Представитель Клиента
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| ФИО     | string | Да | ФИО представителя Клиента     |
+| Телефон | string | Да | Телефон представителя Клиента |
+
+#### Тариф
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Наименование             | string  | Да | Наименование тарифа в Системе                                           |
+| Мин оборот               | integer |    | Минимальный оборот, к которому применим тариф, коп                      |
+| Макс оборот              | integer |    | Максимальный оборот, к которому применим тариф, коп                     |
+| Описание                 | string  |    | Описание тарифа                                                         |
+| Комиссия                 | integer | Да | Размер комиссии, взимаемый за использование Системы, коп                |
+| Мин количество столиков  | integer |    | Минимальное количество столиков, к котором может быть применим тариф    |
+| Макс количество столиков | integer |    | Максимальное количество столиков, к котором может быть применим тариф   |
+| Стандартный              | boolean | Да | Флаг, показывающий, будет ли тариф отображаться на форме выбора тарифов |
+
+#### Ресторан
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Название                | string | Да | Название ресторана                             |
+| Тип кухни               | enum   | Да | Тип кухни                                      |
+| Адрес                   | string | Да | Адрес ресторана                                |
+| Галерея фото            | array  |    | Массив с изображениями ресторана               |
+| Долгота                 | double |    | Долгота расположения ресторана                 |
+| Широта                  | double |    | Широта расположения ресторана                  |
+| ID ресторана в R-keeper | string |    | Идентификатор ресторана в справочнике R-Keeper |
+
+#### Соединение
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Логин         | string | Да | Логин соединения         |
+| Пароль        | string | Да | Пароль соединения        |
+| Сетевой адрес | string | Да | Сетевой адрес соединения |
+
+#### Рабочий день
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Время начала    | time | Да | Время начала рабочего дня ресторана    |
+| Время окончания | time | Да | Время окончания рабочего дня ресторана |
+| День недели     | enum | Да | День недели                            |
+
+#### Столик
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Количество мест       | integer |    | Количество мест за столиком        |
+| Статус                | enum    | Да | Статус столика из перечня статусов |
+| Описание              | string  |    | Описание столики                   |
+| ИД столика в R-Keeper | string  | Да | ИД столика в R-Keeper              |
+
+#### Посетитель
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Имя     | string | Да | Имя посетителя     |
+| Телефон | string | Да | Телефон посетителя |
+
+#### Бронирование
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Количество гостей          | integer |    | Количество гостей в бронировании           |
+| Дата                       | date    | Да | Дата бронирования                          |
+| Время                      | time    | Да | Время бронирования                         |
+| Статус                     | enum    | Да | Статус бронирования                        |
+| Столик                     | uuid    | Да | Идентификатор столика, который бронируется |
+| ИД бронирования в R-Keeper | string  | Да | ИД бронирования в R-Keeper                 |
+
+#### Пользователь
+
+| Название свойства | Тип | Обязательность | Описание | 
+| ----------------- | --- | -------------- | -------- |
+| Email  | string | Да | Email пользователя                 |
+| Пароль | string | Да | Пароль пользователя                |
+| Роль   | uuid   | Да | Роль пользователя из перечня ролей |
 
 ## Диаграммы состояний
 

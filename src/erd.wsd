@@ -26,13 +26,13 @@ class "Тариф" as tariff {
     Стандартный: boolean
 }
 
-class "Состояния клиента" as states <<Enumeration>> {
+enum "Состояния клиента" as states <<Enumeration>> {
     Новый
     Зарегистрирован
     Активирован
 }
 
-class "Типы бизнеса" as business_types <<Enumeration>> {
+enum "Типы бизнеса" as business_types <<Enumeration>> {
     Ресторан
 }
 
@@ -46,6 +46,12 @@ class "Ресторан" as restaurant {
         Широта
     \}
     ID ресторана в R-keeper
+}
+
+enum "Тип кухни" as kitchen_types {
+    Азиатская
+    Европейская
+    Кавказская
 }
 
 class "Подключение к\nсистеме ресторана" as connection {
@@ -81,7 +87,7 @@ class "Бронирование" as booking {
     ИД бронирования в R-Keeper
 }
 
-class "Статусы бронирования" as booking_states {
+enum "Статусы бронирования" as booking_states {
     Новое
     Подтверждено
     Отменено
@@ -103,6 +109,7 @@ client "0..*" --> "1" tariff
 client "0..*" --> "1" states
 client "0..*" --> "1" business_types
 restaurant "0..*" --* client
+restaurant "0..*" --> "1" kitchen_types
 connection "0..*" --* restaurant
 working_day "0..7" --* restaurant
 table "0..*" --* restaurant
