@@ -1,0 +1,61 @@
+@startuml
+
+actor "Посетитель" as vis
+actor "Представитель Клиента" as cl
+actor "Менеджер" as man
+frame "Мобильное\nприложение" as mobap
+frame "Веб-сайт" as web {
+  frame "ЛК Посетителя" as lkp
+  frame "ЛК Менеджера" as lkm
+  frame "ЛК Клиента" as lkc
+}
+
+interface "Application\npublic API" as api
+interface "ЛК Посетителя\npublic API" as papi
+interface "ЛК Менеджера\npublic API" as mapi
+interface "ЛК Клиента\npublic API" as capi
+
+package "Система" {
+  component "Рестораны" as rest
+  component "Клиенты" as cls
+  component "Сотрудники" as em
+  component "Посетители" as us
+  component Keycloak
+  component "Бронирования" as book
+  component "Тарифы" as t
+}
+
+mobap --> api
+
+api --> rest
+api --> us
+api --> book
+api --> Keycloak
+
+papi --> rest
+papi --> us
+papi --> Keycloak
+papi --> book
+
+mapi --> cls
+mapi --> t
+mapi --> em
+mapi --> Keycloak
+mapi --> rest
+
+capi --> cls
+capi --> rest
+capi --> Keycloak
+capi --> t
+
+vis --> lkp
+vis --> mobap
+
+cl --> lkc
+man --> lkm
+
+lkp --> papi
+lkm --> mapi
+lkc --> capi
+
+@enduml

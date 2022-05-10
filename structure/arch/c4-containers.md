@@ -106,4 +106,25 @@ curl -X 'GET' \
 
 ### Опсиание API
 
+В API реализован следующий набор ресурсов:
+
+* Управление ресторанами
+* Управление столиками
+* Управление клиентами
+* Управление представителями клиентов
+* Управление сотрудниками
+* Управление посетителями
+* Управение тарифами
+* Бронирования
+
+Каждый из ресурсов отвечает за свой ограниченный контекст. На данном этапе наше приложение монолитно, о чем подробно упоминалось в главе [Общее описание архитектуры](#общее-описание-архитектуры), однако в дальнейшем предполагается рост пользовательской массы и, как следствие, рост нагрузок. При этом характер и количественные показатели этих нагрузок будут различаться для разных сущностей. Потребуется разделение монолита на части. Предполагается, что разделяться он будет на основании микросервисного подхода. В таком случае возможно следующее разделение:
+
+![feature-arch](https://plantuml.w1.money/png/TLJ1RjD04BtlLwnwpo-WzbXnwGVqiXdSolBkUcLlG0WX9O4RI8WUsqfGlY2jI1KekBym-qVCZkqazeP3d1c_zsRUhCS-hhsg_Cne8HJuif97-0sRiC1rMEA6Vcjy2f-FfAhbwxpUSSASa9zXGOmLFkoO4g_n2JUK_8qG2q5lTRSHY4fyf0vpXesoug9I9cEymNkIKoNYDRW-j_XClUWEPO-ifkAjhfmgjrLU4NO_8UCh_1MMJ7YJJUKx8MLFkS5hUM2wBqpMXHjJHsQxQNHXniHqP5s0U2z4RdrMNIWWvebpEWVbyzAUMpURKY9FpawPhLo-J_slqKJe3YeJtudE7DGDnaWq43N2AIZKPPJSaQy5E_iJXuu73QLnfSsi9_WxjOvm4mrGoKzSfCfgFoBkTUr8eEiHvuxABCCyVA2PuWBynWqpCpCY9eVM4MV3YY-pjw1BLOpKNybh4nlm_qFqJN6x7zEo7DD_u2gkPlZO-VRnaVDMoida1JzLGHTEUF0-8JTzo6NxP6jBk87ExGbTGdQ3MiBqQJp6RU9t8HsQIOgOGKC1-qLWW46YXLqJGHy93kFhrCVjYof0TmXGDzl5HWYYSiBBJ7TQJPj0QuAFyZYph-X3zGy0 "feature-arch")
+
+[Исходник](../../src/feature-arch.wsd)
+
+Набор методов определен на основании аналитики Пользовательских историй в [соответствующем разделе](../../README.md#user-stories). [*][Допущения]
+
 Описание API доступно по следующей ссылке: [https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0](https://app.swaggerhub.com/apis/indeec05/Booking_system/1.0.0)
+
+[Допущения]: ../../structure/requirements/assumptions.md
